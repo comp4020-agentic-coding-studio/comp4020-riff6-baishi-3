@@ -32,4 +32,8 @@ export const siteConfig = defineSiteConfig({
   licence: "CC-BY-NC-SA-4.0",
   socialImage: "/src/assets/images/card.png",
   socialImageAlt: `A preview card for ${courseMeta.code}: ${courseMeta.title}`,
+
+  legalLinks: [
+    { text: "Source", href: "https://github.com/comp4020-agentic-coding-studio/comp4020-riff6-baishi-3" },
+  ],
 });
