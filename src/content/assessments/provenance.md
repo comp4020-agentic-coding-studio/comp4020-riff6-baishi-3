@@ -18,6 +18,26 @@ marking:
     file would survive the kind of questioning the final crit puts it
     through, and whether the whole submission stands on its own without you
     there to explain it.
+  bands:
+    hd: The object and the provenance file are developed in proportion and
+      to a high standard individually; the file cites specific, real kinds
+      of documentation matched to the material and would survive real
+      due diligence; the presenter defends it at crit without needing to
+      explain gaps the file itself should already cover.
+    d: Both halves are strong, though one is marginally ahead of the other;
+      the file is detailed and mostly survives questioning, with the
+      presenter filling only minor gaps live.
+    cr: Both halves are competent but one is noticeably thinner — an
+      ambitious object with a sketched-in history, or a watertight history
+      for an unremarkable object; crit questioning finds soft spots the
+      presenter can only partly defend.
+    p: A complete submission meeting the spec minimally — object and
+      provenance file both present and on-topic — but one half is weak
+      enough to undercut the case, and the crit defence leans on
+      explanation that should have been in the file.
+    f: Submission incomplete, the provenance file merely asserts
+      genuineness without real documentation types, or neither half
+      survives questioning at crit.
 spec:
   - submitted by the deadline, as an object (or text, currency design or code
     artefact) plus a complete provenance file
