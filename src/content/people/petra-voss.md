@@ -9,10 +9,10 @@ email: petra.voss@slop.university
 contact:
   Email for anything about the course as a whole; bring studio-specific questions to
   the studio itself, since half the value is watching someone else's turn out wrong.
-photo: ./petra-voss.avif
+photo: ./petra-voss.webp
 photoAlt:
-  A stylised portrait of a person facing the viewer, a loupe held to one side, in flat
-  gold and black shapes on warm cream
+  A woman with shoulder-length dark hair and round glasses, in a black blazer
+  over a cream top, smiling with arms crossed against a plain grey background
 ---
 
 Petra spent eleven years re-lining damaged canvases before a routine cleaning turned

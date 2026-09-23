@@ -9,10 +9,10 @@ email: naledi.osei@slop.university
 contact:
   Contactable for the two weeks she guests; the convenor holds any question that
   needs an answer outside that window.
-photo: ./naledi-osei.avif
+photo: ./naledi-osei.webp
 photoAlt:
-  A stylised portrait of a person facing the viewer, a scatter of pixel-glitch
-  squares at the shoulder, in flat gold and black shapes on warm cream
+  A woman with a short dark pixie cut and gold hoop earrings, in a navy blazer
+  over a white top, smiling against a plain grey studio background
 ---
 
 Naledi builds the detection tooling that broadcasters and archives use to flag

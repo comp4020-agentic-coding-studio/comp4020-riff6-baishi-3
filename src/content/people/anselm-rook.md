@@ -9,10 +9,10 @@ email: anselm.rook@slop.university
 contact:
   Ask during a studio, where the bench and the materials are already out; a
   technique question over email is a technique question I can't actually answer.
-photo: ./anselm-rook.avif
+photo: ./anselm-rook.webp
 photoAlt:
-  A stylised portrait of a person in three-quarter view, a pencil at the shoulder, in
-  flat gold and black shapes on warm cream
+  A grey-bearded man with short grey hair, smiling broadly in an olive button-up
+  shirt against a plain grey studio background
 ---
 
 Anselm runs a small handbound-book and letterpress practice outside the university,
