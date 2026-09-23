@@ -22,10 +22,18 @@ copying, so a tutor can look at both side by side.
 
 ## In the session
 
-No lecture and no new demonstration this week — this studio is deliberately
-open bench time. Anselm circulates and answers questions one bench at a time
-rather than teaching to the room, which is closer to how a real studio
-practice actually runs than a scheduled demo every week would be.
+### Activity 1 — State your reliance (10 min)
+
+Before you start work, write one sentence naming which technique from weeks
+1–3 your Assignment 1 piece relies on most. Flag a tutor if you can't answer
+this yet — that's a sign to talk it through before you keep building.
+
+### Activity 2 — Open bench time (30 min)
+
+No lecture and no new demonstration this week. Work on Assignment 1 at your
+own bench; Anselm circulates and answers questions one bench at a time
+rather than teaching to the room. Use the time to make visible progress
+since last studio, not to plan it.
 
 ## Afterwards
 

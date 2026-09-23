@@ -24,12 +24,18 @@ single part of it you're least happy with.
 
 ## In the session
 
-Short, structured pairs review: each person points at their own weakest
-detail before anyone else comments, then their partner runs the
-connoisseur's-eye checklist from this week's lecture over it out loud —
-rhythm, material, wear, story — and says which item breaks first. The
-exercise is as much about learning to look this way as it is about the
-specific object in front of you.
+### Activity 1 — Name your own weak point (10 min)
+
+Put your week-1 attempt on the bench next to the original. Before anyone
+else comments, point at the single part you're least happy with and say why,
+out loud, to your partner.
+
+### Activity 2 — Paired checklist review (30 min)
+
+Swap benches. Your partner runs the connoisseur's-eye checklist from this
+week's lecture over your attempt out loud — rhythm, material, wear, story —
+and says which item breaks first. Then switch roles and do the same for
+theirs.
 
 ## Afterwards
 

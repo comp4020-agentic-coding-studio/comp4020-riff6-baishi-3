@@ -22,12 +22,18 @@ their own hand by accident.
 
 ## In the session
 
-Everyone attempts a close copy of a short provided handwriting sample,
-signature included, then compares their attempt against the original for the
-specific tell from this week's lecture: does your version look slower and
-more careful than the original, even where the shapes match? Most people can
-feel this the moment it's pointed out, which is exactly why forged signatures
-are among the easiest fakes to catch once someone knows to look for it.
+### Activity 1 — Copy the sample (20 min)
+
+Attempt a close copy of the short provided handwriting sample, signature
+included. Work at your own pace, but don't stop to compare against the
+original until you've finished the attempt.
+
+### Activity 2 — Find your own tell (20 min)
+
+Compare your attempt against the original for the specific tell this week's
+lecture named: does your version look slower and more careful than the
+original, even where the shapes match? Say out loud, to whoever's next to
+you, where you can see it in your own copy.
 
 ## Afterwards
 

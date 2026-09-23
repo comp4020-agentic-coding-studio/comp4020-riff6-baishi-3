@@ -24,12 +24,20 @@ be specific rather than starting from zero.
 
 ## In the session
 
-Anselm runs the bench setup: where materials live, how to sign them out, and
-the one rule that matters more than any technique — stop and ask before using
-anything unfamiliar without a demonstration. Then a short, deliberately
-low-stakes exercise: copy a single simple mark (a printed letterform, a
-straight ruled line) as closely as you can by hand, in about twenty minutes.
-Nobody's copy will be perfect. That's the point of week 1, not a problem with it.
+### Activity 1 — Bench setup (20 min)
+
+Anselm walks the room through where materials live, how to sign them out,
+and the one rule that matters more than any technique: stop and ask before
+using anything unfamiliar without a demonstration. Find your bench, locate
+the sign-out sheet, and ask now if anything about the safety briefing wasn't
+clear.
+
+### Activity 2 — First copy (20 min)
+
+Pick a single simple mark — a printed letterform or a straight ruled line —
+and copy it by hand as closely as you can. Nobody's copy will be perfect;
+that's the point of week 1, not a problem with it. Keep the original and
+your attempt side by side when you're done.
 
 ## Afterwards
 

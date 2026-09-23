@@ -23,11 +23,19 @@ style or artefact "Provenance" will be built around.
 
 ## In the session
 
-Open bench time again, but aimed forward this time: rather than continuing
-Assignment 1 work, the studio is for starting the research a convincing
-provenance file needs — real gallery catalogues, real auction records, real
-period documents to model the forged ones on. Anselm and the tutorial group
-are available for direction, not demonstration, this week.
+### Activity 1 — Name your subject (10 min)
+
+Write one sentence naming the object, style or artefact your final project
+will centre on. If you're not sure yet, talk it through with a tutor before
+moving on — don't start research on a subject you'll abandon next week.
+
+### Activity 2 — Start the provenance research (30 min)
+
+Begin gathering real source material a convincing provenance file needs —
+gallery catalogues, auction records, period documents to model the forged
+ones on. Anselm and the tutorial group are available for direction, not
+demonstration, this week. Leave with at least one real reference source
+found.
 
 ## Afterwards
 

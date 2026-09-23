@@ -24,11 +24,19 @@ since week 8.
 
 ## In the session
 
-Open bench and desk time, with both tutors circulating: Anselm on the
-object's material craft, Petra on whether the accompanying provenance file
-would actually hold up under the market-and-authentication questions from
-this week's lecture. Most projects at this point need more work on one side
-than the other — the studio's job is helping you see which.
+### Activity 1 — Object check with Anselm (20 min)
+
+Get your object's material craft checked at the bench. Most projects at this
+point need more work on the object than the paperwork, or the reverse — find
+out which is true of yours before you spend the rest of the session on the
+wrong half.
+
+### Activity 2 — Provenance file check with Petra (20 min)
+
+Walk your draft provenance file past Petra against the
+market-and-authentication questions from this week's lecture. Note which
+claims wouldn't survive being asked, and use the rest of the session to
+strengthen them.
 
 ## Afterwards
 

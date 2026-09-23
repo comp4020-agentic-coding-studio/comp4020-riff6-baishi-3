@@ -25,11 +25,18 @@ has time to research the specific piece in advance.
 
 ## In the session
 
-Each person or pair receives a sample (image, audio or short video) that may
-or may not be synthetic, and a briefing from Naledi on which of this week's
+### Activity 1 — Sample and briefing (15 min)
+
+Receive your assigned sample (image, audio or short video, which may or may
+not be synthetic) and listen to Naledi's briefing on which of this week's
 detection techniques are realistic to apply with the tools available in the
-studio. The rest of the session is a working start on Assignment 3, "The
-Tell": not a verdict yet, just the first pass of analysis.
+studio.
+
+### Activity 2 — First-pass analysis (25 min)
+
+Begin analysing your sample with one technique from the briefing. This is
+not a verdict yet — just the first pass. Write down what you've applied and
+what it showed so far, ready to continue in week 10.
 
 ## Afterwards
 

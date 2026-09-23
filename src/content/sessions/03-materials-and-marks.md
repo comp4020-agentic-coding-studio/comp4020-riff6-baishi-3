@@ -22,12 +22,19 @@ part of the exercise is not knowing in advance what you'll be handling.
 
 ## In the session
 
-Anselm demonstrates two or three hand-ageing techniques (tea-staining paper,
-craquelure by controlled flexing, foxing with diluted iron) on a fresh
-surface, then you attempt one yourself. The follow-up question is the real
-content of the week: given what you just did, what would a materials test
-actually catch? Every hand-ageing technique leaves a trace that isn't the
-trace of real time passing, and naming your own trace is the exercise.
+### Activity 1 — Age a surface (25 min)
+
+Watch Anselm demonstrate two or three hand-ageing techniques — tea-staining
+paper, craquelure by controlled flexing, foxing with diluted iron — on a
+fresh surface. Pick one and attempt it yourself on your own provided
+surface.
+
+### Activity 2 — Name the trace (15 min)
+
+Look at what you just made and answer the real question of the week: what
+would a materials test actually catch in it? Every hand-ageing technique
+leaves a trace that isn't the trace of real time passing — write down, in
+your own words, what your specific trace is.
 
 ## Afterwards
 

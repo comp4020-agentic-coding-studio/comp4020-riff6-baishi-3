@@ -23,11 +23,17 @@ if you're not confident in it yet.
 
 ## In the session
 
-Naledi is available for technical questions specific to detection tooling;
-otherwise this is work time to finish the analysis and draft the written
-case Assignment 3 asks for. The studio's running theme applies here too — a
-verdict without named evidence is not a convincing case, it's a guess with a
-conclusion attached.
+### Activity 1 — Finish the analysis (20 min)
+
+Continue applying detection techniques to your sample until you can state a
+verdict. Naledi is available for technical questions specific to the
+tooling — use her while you're still undecided, not after.
+
+### Activity 2 — Write the case (20 min)
+
+Draft the written case Assignment 3 asks for. A verdict without named
+evidence is not a convincing case, it's a guess with a conclusion attached —
+your draft must name the specific evidence the verdict rests on.
 
 ## Afterwards
 

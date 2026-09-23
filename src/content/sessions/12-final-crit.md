@@ -24,12 +24,19 @@ otherwise presentable to the room.
 
 ## In the session
 
-The same room-crit format from week 7's Assignment 1 review, run one final
-time and at higher stakes: each project is presented with its claimed
-history, and the room — tutors and classmates together — questions the
-provenance file the way an auction house's due-diligence team would. The
-questioning is meant to be hard; a provenance file that survives it is doing
-real work, not just decorating the object.
+### Activity 1 — Present your object (15 min)
+
+Present your finished object and its claimed history to the room, the same
+format as week 7's crit but at higher stakes. Be ready to defend one part of
+that history under questioning.
+
+### Activity 2 — Due-diligence questioning (25 min)
+
+The room — tutors and classmates together — questions each provenance file
+the way an auction house's due-diligence team would. Give feedback on at
+least one other project's provenance file when it's not your turn; the
+questioning is meant to be hard, and a file that survives it is doing real
+work, not just decorating the object.
 
 ## Afterwards
 

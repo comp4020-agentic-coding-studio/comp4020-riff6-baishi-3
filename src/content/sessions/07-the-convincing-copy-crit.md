@@ -24,12 +24,18 @@ Bring your finished, submitted Assignment 1 piece and its note.
 
 ## In the session
 
-A room crit, not a private mark: every piece goes on the bench, and the class
-runs the week-2 checklist over each one in turn before either tutor gives
-their own read. The point of doing this in public is the same point the
-brief makes about the whole course — the interesting content is in why a
-copy doesn't quite land, and that's more visible with a room of eyes than
-with one tutor's alone.
+### Activity 1 — Put your piece on the bench (10 min)
+
+Set your finished piece and its materials-and-method note out on the bench
+alongside everyone else's, ready for the room to see.
+
+### Activity 2 — Room crit (30 min)
+
+Every piece is crit'd in turn: the class runs the week-2 checklist over it
+out loud before either tutor gives their own read. Give feedback on at
+least two other pieces using that checklist — the interesting content is in
+why a copy doesn't quite land, and that's more visible with a room of eyes
+than with one tutor's alone.
 
 ## Afterwards
 

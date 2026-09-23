@@ -22,12 +22,18 @@ materials-and-method note the assessment page requires.
 
 ## In the session
 
-Dedicated bench time, plus a short one-on-one check of each person's
-materials-and-method note — the piece of the submission that does the
-declaring the [policies page](/policies/) describes. A note that doesn't say
-what technique it copied or what it was made with is the one thing that turns
-finished work into an ungradable one, so this is the week that gets caught
-before submission rather than after.
+### Activity 1 — Finish the piece (25 min)
+
+Dedicated bench time on Assignment 1 itself. Aim to leave this activity with
+the piece close to finished, not merely "worked on" — this is the last
+studio before it's due.
+
+### Activity 2 — Note check (15 min)
+
+Bring your draft materials-and-method note to a tutor for a short one-on-one
+check. It must say what technique your piece copied and what it was made
+with — the [policies page](/policies/) describes why. Fix any gap now,
+while there's still time before submission.
 
 ## Afterwards
 
