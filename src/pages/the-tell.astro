@@ -1,0 +1,155 @@
+---
+import { Image } from "astro:assets";
+import { getPublishedCollection } from "astro-course-university/content";
+import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
+import Callout from "astro-theme-university/components/Callout.astro";
+import { withBase } from "astro-theme-university/url";
+import { siteConfig } from "../site-config";
+
+// This page is Assignment 2's brief, run against the site's own content
+// instead of a supplied sample: "you're handed a sample... decide whether
+// it's real, and write the case a sceptical reader would actually need to
+// be convinced." The samples here are this course's own staff portraits.
+const people = await getPublishedCollection("people");
+const photoAlt = (data: unknown) => {
+  const alt = (data as { photoAlt?: unknown }).photoAlt;
+  return typeof alt === "string" ? alt : "";
+};
+const samples = people
+  .filter((p) => p.data.photo)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<ContentLayout
+  title="The Tell, live"
+  description="Assignment 2 asks you to hand a verdict on a sample and defend it. Here is that exercise, run on this course's own staff portraits, before the reveal explains what we actually know."
+  {...siteConfig}
+>
+  <p>
+    <a href={withBase("/assessments/the-tell/")}>The Tell</a> hands you a
+    sample and asks for a verdict, the evidence it rests on, and an honest
+    account of where your confidence runs out. This site has never actually
+    done that to a visitor — it only describes the exercise. Below are the
+    three photographs from this course's own{" "}
+    <a href={withBase("/people/")}>people page</a>. Guess, for each, before
+    you read the reveal underneath it.
+  </p>
+
+  <div class="tell-grid">
+    {
+      samples.map((person) => (
+        <div class="tell-item" data-tell-item>
+          <Image
+            src={person.data.photo!}
+            alt={photoAlt(person.data)}
+            widths={[320, 640]}
+            sizes="(min-width: 48rem) 20rem, 100vw"
+            class="tell-photo"
+          />
+          <div class="tell-guess" role="group" aria-label="Your guess">
+            <button type="button" data-guess="real">
+              A real photograph
+            </button>
+            <button type="button" data-guess="synthetic">
+              Not what it's presented as
+            </button>
+          </div>
+          <div class="tell-reveal" hidden>
+            <p>
+              <strong>What's certain:</strong> the person named on{" "}
+              <a href={withBase(`/people/${person.id}/`)}>this photo's page</a> does not
+              teach anywhere, because Slop University does not exist — this
+              whole course was built for a coursework exercise, one commit at
+              a time, and the site has never said so out loud until now.
+            </p>
+            <p>
+              <strong>What's genuinely uncertain:</strong> whether the
+              photograph itself is a generated face or an uncredited real
+              person's, we can't tell from here — the one piece of concrete
+              evidence in the file is that it's a 2048×1024 canvas, an odd
+              width for a straight headshot, which is suggestive of a
+              generation or compositing step but proves nothing on its own.
+              That's the honest limit of this verdict.
+            </p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
+  <Callout type="info">
+    <p>
+      This is the site's own materials-and-method note — the one the{" "}
+      <a href={withBase("/policies/")}>policies page</a> says a submission without is
+      "treated as undeclared regardless of how good the work is." An
+      AI-authored course, presented straight, with a bench of very convincing
+      staff photos, is exactly the undeclared case that page describes — until
+      this page said which parts are fake and which parts nobody can actually
+      settle.
+    </p>
+  </Callout>
+
+  <script>
+    for (const item of document.querySelectorAll<HTMLElement>("[data-tell-item]")) {
+      const reveal = item.querySelector<HTMLElement>(".tell-reveal");
+      const buttons = item.querySelectorAll<HTMLButtonElement>("[data-guess]");
+      for (const button of buttons) {
+        button.addEventListener("click", () => {
+          if (!reveal) return;
+          reveal.hidden = false;
+          for (const b of buttons) {
+            b.disabled = true;
+            b.setAttribute("aria-pressed", String(b === button));
+          }
+        });
+      }
+    }
+  </script>
+
+  <style>
+    .tell-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: 1.5rem;
+      margin-block: 2rem;
+    }
+
+    .tell-item {
+      border: 1px solid var(--at-border, currentcolor);
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+
+    .tell-photo {
+      width: 100%;
+      height: auto;
+      border-radius: 0.375rem;
+      margin-block-end: 1rem;
+    }
+
+    .tell-guess {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tell-guess button {
+      flex: 1 1 auto;
+    }
+
+    .tell-guess button[aria-pressed="true"] {
+      outline: 2px solid var(--at-accent, currentcolor);
+      outline-offset: 2px;
+    }
+
+    .tell-reveal {
+      margin-block-start: 1rem;
+      padding-block-start: 1rem;
+      border-block-start: 1px dashed var(--at-border, currentcolor);
+    }
+
+    .tell-reveal p {
+      font-size: 0.95rem;
+    }
+  </style>
+</ContentLayout>

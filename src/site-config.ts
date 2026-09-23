@@ -1,4 +1,5 @@
 import { defineSiteConfig } from "astro-theme-university/types";
+import { withBase } from "astro-theme-university/url";
 import { slopBranding } from "astro-theme-slop";
 import { courseMeta } from "./course-config";
 
@@ -35,5 +36,6 @@ export const siteConfig = defineSiteConfig({
 
   legalLinks: [
     { text: "Source", href: "https://github.com/comp4020-agentic-coding-studio/comp4020-riff6-baishi-3" },
+    { text: "Colophon", href: withBase("/the-tell/") },
   ],
 });
