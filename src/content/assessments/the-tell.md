@@ -5,7 +5,7 @@ description:
   your verdict, naming the specific evidence it rests on.
 week: 10
 due: 2027-10-03T17:00:00+10:00
-weight: 30
+weight: 27
 marking:
   mode: weighted
   criteria:

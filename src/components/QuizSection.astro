@@ -1,0 +1,53 @@
+---
+import { getPublishedCollection } from "astro-course-university/content";
+import { withBase } from "astro-theme-university/url";
+import QuizQuestions from "./QuizQuestions.astro";
+
+const quizzes = await getPublishedCollection("quizzes");
+const visible = quizzes.sort((a, b) => a.data.week - b.data.week);
+---
+
+<section aria-labelledby="weekly-quizzes" class="quiz-section">
+  <h2 id="weekly-quizzes">Weekly quizzes</h2>
+  <p>
+    A short self-check quiz for each lecture week — type an answer and the
+    correct one is revealed. The best 8 of 10 scores count toward the{" "}
+    <a href={withBase("/assessments/quizzes/")}>quizzes assessment</a>.
+  </p>
+
+  <div class="quiz-list">
+    {
+      visible.map((quiz) => (
+        <details class="quiz-week">
+          <summary>
+            Week {quiz.data.week} — {quiz.data.title}
+          </summary>
+          <QuizQuestions quizId={quiz.id} questions={quiz.data.questions} />
+        </details>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .quiz-section {
+    margin-block: 2rem;
+  }
+
+  .quiz-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .quiz-week {
+    border: 1px solid var(--at-border, currentcolor);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .quiz-week summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+</style>

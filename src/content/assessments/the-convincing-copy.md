@@ -5,7 +5,7 @@ description:
   four materials, and declare exactly what you made it with and from.
 week: 6
 due: 2027-09-05T17:00:00+10:00
-weight: 30
+weight: 27
 marking:
   mode: weighted
   criteria:

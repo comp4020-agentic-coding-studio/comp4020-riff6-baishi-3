@@ -1,0 +1,23 @@
+---
+import { render } from "astro:content";
+import { getPublishedCollection } from "astro-course-university/content";
+import RelatedContent from "astro-course-university/components/RelatedContent.astro";
+import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
+import QuizQuestions from "../../components/QuizQuestions.astro";
+import { graphCollections, siteConfig } from "../../site-config";
+
+export async function getStaticPaths() {
+  const quizzes = await getPublishedCollection("quizzes");
+  return quizzes.map((quiz) => ({ params: { slug: quiz.id }, props: { quiz } }));
+}
+
+const { quiz } = Astro.props;
+const { Content } = await render(quiz);
+const title = `Week ${quiz.data.week} quiz: ${quiz.data.title}`;
+---
+
+<ContentLayout title={title} description={quiz.data.description} {...siteConfig}>
+  <Content />
+  <QuizQuestions quizId={quiz.id} questions={quiz.data.questions} />
+  <RelatedContent entry={quiz} collections={graphCollections} />
+</ContentLayout>

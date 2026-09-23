@@ -5,7 +5,7 @@ description:
   that turns every earlier studio's craft into one complete case for a fake.
 week: 12
 due: 2027-10-13T17:00:00+10:00
-weight: 40
+weight: 36
 marking:
   mode: holistic
   description:

@@ -85,6 +85,23 @@ export const collections = {
       .loose(),
   }),
 
+  quizzes: defineCollection({
+    loader: courseNodeLoader("quizzes"),
+    schema: courseNodeSchema
+      .extend({
+        week: weekSchema,
+        questions: z
+          .array(
+            z.object({
+              question: z.string().trim().min(1),
+              answer: z.string().trim().min(1),
+            }),
+          )
+          .min(1),
+      })
+      .loose(),
+  }),
+
   people: defineCollection({
     loader: courseNodeLoader("people"),
     schema: ({ image }) =>
