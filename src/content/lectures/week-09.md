@@ -8,6 +8,7 @@ week: 9
 date: 2027-09-21
 teachers:
   - naledi-osei
+slides: /decks/week-09/
 related:
   - sessions/09-the-tell-begins
 ---

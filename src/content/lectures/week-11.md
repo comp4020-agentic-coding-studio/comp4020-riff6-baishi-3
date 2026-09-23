@@ -7,6 +7,7 @@ week: 11
 date: 2027-10-05
 teachers:
   - petra-voss
+slides: /decks/week-11/
 related:
   - assessments/provenance
 ---

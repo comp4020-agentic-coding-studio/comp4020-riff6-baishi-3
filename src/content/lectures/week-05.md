@@ -7,6 +7,7 @@ week: 5
 date: 2027-08-24
 teachers:
   - petra-voss
+slides: /decks/week-05/
 related:
   - sessions/05-copying-a-hand
 ---

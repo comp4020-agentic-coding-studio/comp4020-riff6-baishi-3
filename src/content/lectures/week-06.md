@@ -7,6 +7,7 @@ week: 6
 date: 2027-08-31
 teachers:
   - petra-voss
+slides: /decks/week-06/
 related:
   - assessments/the-convincing-copy
 ---

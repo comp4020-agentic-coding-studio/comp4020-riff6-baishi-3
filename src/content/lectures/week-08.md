@@ -7,6 +7,7 @@ week: 8
 date: 2027-09-14
 teachers:
   - petra-voss
+slides: /decks/week-08/
 related:
   - assessments/the-tell
 ---

@@ -7,6 +7,7 @@ week: 3
 date: 2027-08-10
 teachers:
   - anselm-rook
+slides: /decks/week-03/
 related:
   - sessions/03-materials-and-marks
 ---

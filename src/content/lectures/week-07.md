@@ -7,6 +7,7 @@ week: 7
 date: 2027-09-07
 teachers:
   - petra-voss
+slides: /decks/week-07/
 related:
   - sessions/07-the-convincing-copy-crit
   - assessments/provenance

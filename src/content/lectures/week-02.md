@@ -7,6 +7,7 @@ week: 2
 date: 2027-08-03
 teachers:
   - petra-voss
+slides: /decks/week-02/
 related:
   - sessions/02-first-review
   - assessments/the-convincing-copy

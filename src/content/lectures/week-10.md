@@ -7,6 +7,7 @@ week: 10
 date: 2027-09-28
 teachers:
   - naledi-osei
+slides: /decks/week-10/
 related:
   - sessions/10-the-tell-work-time
   - assessments/the-tell
